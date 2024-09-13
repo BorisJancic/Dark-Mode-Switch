@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
-import './DarkModeSelector.css'
+import './DarkModeSwitch.css'
 
-const DarkModeSelector = (props) => {
+const DarkModeSwitch = (props) => {
     const [darkMode, setDarkMode] = useState(true);
 
     useEffect(() => {
@@ -54,4 +54,4 @@ const DarkModeSelector = (props) => {
         </div>
     )
 }
-export default DarkModeSelector;
+export default DarkModeSwitch;
